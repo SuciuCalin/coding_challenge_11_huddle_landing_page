@@ -1,0 +1,205 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: hsl(192, 100%, 9%);
+  margin: 0 auto;
+  max-width: 980px;
+}
+
+main .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  margin: 2em;
+  height: 1.7em;
+}
+
+header .logo {
+  width: 20%;
+  height: auto;
+}
+
+header button {
+  border: 1px solid hsl(322, 100%, 66%);
+  border-radius: 25px;
+  padding: 0 1em;
+  background-color: inherit;
+  color: hsl(322, 100%, 66%);
+  width: 8em;
+}
+
+.landing {
+  text-align: center;
+  background-image: url("../images/bg-section-top-desktop-1.svg");
+  background-size: contain;
+  background-position: 0 bottom;
+  background-repeat: repeat-x;
+  padding: 4em 0;
+}
+
+.landing h1 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 2em;
+}
+
+.landing p {
+  font-weight: 400;
+  margin: 0 auto;
+  width: 50%;
+}
+
+.cta-button {
+  border: none;
+  border-radius: 25px;
+  background-color: hsl(322, 100%, 66%);
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  padding: 1em 3em;
+  margin: 3em 0;
+}
+
+.landing img {
+  width: 100%;
+  margin: 3em 0;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 4em;
+  padding-bottom: 10em;
+}
+
+.stats div {
+  text-align: left;
+  padding: 0px;
+}
+
+.stats img {
+  width: 25%;
+  padding: 0;
+  margin: 0;
+}
+
+.stats h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 4em;
+  padding: 0;
+  margin: 0;
+}
+
+.stats div p {
+  width: 100%;
+  text-align: center;
+  font-size: 1em;
+  font-weight: 700;
+  opacity: 0.5;
+  padding: 0;
+}
+
+.section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(207, 100%, 98%);
+  height: 50vh;
+  padding: 4em;
+}
+
+.section article,
+.section img {
+  width: 25%;
+  flex-grow: 1;
+  padding: 0 2em;
+}
+
+.two {
+  flex-direction: row-reverse;
+  background-color: #fff;
+  background-image: url("../images/bg-section-bottom-desktop-1.svg"), url("../images/bg-section-top-desktop-2.svg");
+  background-position: 0 top, 0 bottom;
+  background-repeat: repeat-x, repeat-x;
+  background-size: contain;
+  padding: 10em 0;
+}
+
+.closing {
+  text-align: center;
+  background-image: url("../images/bg-section-bottom-desktop-2.svg"), url("../images/bg-footer-top-desktop.svg");
+  background-size: contain;
+  background-position: 0 top, 0 bottom;
+  background-repeat: repeat-x, repeat-x;
+}
+
+.closing h1 {
+  margin-top: 6em;
+}
+
+.closing button {
+  margin-bottom: 10em;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  background-color: hsl(192, 100%, 9%);
+  color: #fff;
+}
+
+footer section {
+  display: flex;
+  justify-content: space-between;
+  padding: 4em;
+}
+
+footer div {
+  width: 40%;
+}
+
+.contact .fas {
+  padding-right: 0.5em;
+}
+
+footer .social {
+  margin: 2em 0;
+  padding-left: 0;
+}
+
+footer .social li {
+  display: inline-block;
+  font-size: 2em;
+  margin-right: 0.5em;
+}
+
+.newsletter form {
+  display: flex;
+  justify-content: space-between;
+}
+
+.subscribe input {
+  border: none;
+  border-radius: 5px;
+  padding: 0.5em 2em;
+  margin: 1em 1em 1em 0;
+}
+
+.subscribe button {
+  border: 1px solid hsl(322, 100%, 66%);
+  border-radius: 5px;
+  padding: 0.5em 2em;
+  margin: 1em;
+  background-color: inherit;
+  background-color: hsl(322, 100%, 66%);
+  color: #fff;
+  font-weight: 700;
+}
